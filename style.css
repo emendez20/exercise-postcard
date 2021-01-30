@@ -1,0 +1,60 @@
+body{
+    font-family: 'Handlee', cursive;
+    font-weight: thick;
+    background-color: #18191a;
+    font-size: 18px;
+    height: 800px;
+}
+.container{
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:50%
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background: url(http://assets.breatheco.de/apis/img/icon/4geeks.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+.header div,.container2 div{
+    display: inline-block;
+}
+.form{
+    float: right;
+    width: 240px;
+
+}
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-family: 'Handlee';
+    font-size: 18px;
+    color: gray;
+    width: 230px;
+}
+.container2{
+    padding: 5px;
+}
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: thin;
+    background-color: lightgray;
+}
